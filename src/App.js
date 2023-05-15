@@ -1,9 +1,9 @@
 import './styles/estilosGlobais.css'
-import Cabecalho from "./componentes/Cabecalho";
+import PaginaInicial from './paginas/PaginaInicial';
 
 function App() {
   return (
-    <Cabecalho/>
+    <PaginaInicial/>
   );
 }
 

@@ -1,0 +1,15 @@
+.pagina-inicial main {
+    margin: 0 24px;
+}
+
+.pagina-inicial-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.pagina-inicial-principal img{
+    width: 88%;
+    height: 288px;
+}
