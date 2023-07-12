@@ -1,13 +1,13 @@
 import logo from '../../assets/logo.png'
 import lupa from '../../assets/search.png'
-import './Cabecalho.css'
+import styles from './Cabecalho.module.scss'
 
 export default function Cabecalho(){
     return(
-        <header className='cabecalho'>
+        <header className={styles.cabecalho}>
             <img src={logo} alt="logo photo space"/>
-            <div className='cabecalho-container'>
-                <input className='cabecalho-input' type="text" placeholder="Oque você procura?"/>
+            <div className={styles.cabecalho__container}>
+                <input className={styles.cabecalho__input} type="text" placeholder="Oque você procura?"/>
                 <img src={lupa} alt="icone lupa"/>
             </div>
         </header>
